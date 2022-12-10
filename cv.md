@@ -12,10 +12,6 @@
 
 *I learned the basics of HTML and CSS, now I'm starting to learn JavaScript.*
 
-**Code examples:**
-
-[https://Valentino4ka12.github.io/rsschool-cv/cv](My CV)
-
 **Education:**
 
 *I have a degree in marketing and i work as a marketing specialist.*
