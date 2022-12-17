@@ -62,3 +62,10 @@ footer {
     text-decoration: none;
     color: black;
 }
+.me {
+    width: 350px;
+    height: 350px;
+}
+.icon-rs {
+    height: 30px;
+}

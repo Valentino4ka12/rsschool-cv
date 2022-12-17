@@ -19,4 +19,4 @@
 
 **My english:**
 
-*My level of english: intermidiate.*
+*My level of english: pre-intermidiate.*
