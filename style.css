@@ -127,3 +127,137 @@ footer {
 .icon-rs {
     height: 30px;
 }
+
+@media (max-width: 960px) {
+    .me {
+        width: 200px;
+        height: 200px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .name-contacts {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 750px) {
+    * {
+        font-size: 12px;
+    }
+    .name-contacts {
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .icon-rs {
+        height: 20px;
+    }
+    .me {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 570px) {
+    * {
+        font-size: 10px;
+    }
+    .name-contacts {
+        padding: 0 15px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    .icon-rs {
+        height: 15px;
+    }
+    .me {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (max-width: 480px) {
+    .container-main {
+        flex-direction: column;
+    }
+    .name-contacts {
+        padding: 10px 0;
+    }
+    .icon-rs {
+        height: 10px;
+    }
+    .container-main2 {
+        padding: 0 20px;
+    }
+    .container-main {
+        padding: 30px 20px;
+    }
+    .container-footer {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 360px) {
+    .me {
+        width: 100px;
+        height: 100px;
+    }
+    ul {
+        flex-wrap: wrap;
+    }
+    header {
+        width: 80%;
+    }
+    main {
+        width: 80%;
+    }
+    footer {
+        width: 80%;
+    }
+    .container-main2 {
+        padding: 0 20px;
+    }
+    .container-main {
+        padding: 30px 20px;
+    }
+    .container-footer {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 320px) {
+    header {
+        width: 90%;
+    }
+    main {
+        width: 90%;
+    }
+    footer {
+        width: 90%;
+    }
+    .container-main2 {
+        padding: 0 20px;
+    }
+    .container-main {
+        padding: 30px 20px;
+    }
+    .container-footer {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 270px) {
+    * {
+        font-size: 8px;
+    }
+    .icon-rs {
+        height: 8px;
+    }
+    .container-main2 {
+        padding: 0 20px;
+    }
+    .container-main {
+        padding: 30px 20px;
+    }
+    .container-footer {
+        padding: 10px 20px;
+    }
+}
