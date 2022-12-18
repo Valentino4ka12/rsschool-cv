@@ -20,3 +20,7 @@
 **My english:**
 
 *My level of english: pre-intermidiate.*
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
