@@ -11,46 +11,76 @@
 <body>
     <div class="container">
         <header>
-            <img class="me" src="./Assets/Img/MyPhoto.png" alt="myPhoto">
             <nav>
-                <h1>Valentina Demidchik</h1>
-                <h2>Student rsschool</h2>
-                <p>Phone: +37529 710 07 30</p>
-                <p>Email: valentino4ka12@gmail.com</p>
-                <p>Nickname GitHub & Discord: valentino4ka12</p>
-                <p>Country: Belarus</p>
-                <p>City: Mogilev</p>
+                <ul>
+                    <li><a href="#contact">Contacts</a></a></li>
+                    <li><a href="#aboutMe">About me</a></li>
+                    <li><a href="#skills">My skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <hr>
-            <section class="about">
-                <h2>About me:</h2>
+            <div class="container-main">
+                <img class="me" src="./Assets/Img/MyPhoto.png" alt="myPhoto">
+                <section class="name-contacts">
+                    <div class="name">
+                        <h1>Valentina Demidchik</h1>
+                        <h2>Student rsschool</h2>
+                    </div>
+                    <div class="contacts" id="contact">
+                        <h3>Contacts:</h3>
+                        <p>Phone: +37529 710 07 30</p>
+                        <p>Email: valentino4ka12@gmail.com</p>
+                        <p>Telegram: @Valentino4ka12</p>
+                        <p>Nickname GitHub & Discord: valentino4ka12</p>
+                        <p>Location: Belarus, Mogilev</p>
+                    </div>
+                </section>
+            </div>
+            <div class="container-main2">
+                <hr>
+            <section class="about" id="aboutMe">
+                <h3>About me:</h3>
                 <p>I started learning Frontend in the summer of 2022. My goal is to become a professional programmer. I am goal-oriented and self-confident. I see the goal and go to it step by step.</p>
             </section>
             <hr>
-            <section class="about">
-                <h2>My skills:</h2>
-                <p>I learned the basics of HTML and CSS, now I'm starting to learn JavaScript.</p>
+            <section class="about" id="skills">
+                <h3>My skills:</h3>
+                <p>I learned the basics of HTML and CSS, now I'm starting to learn JavaScript and React.</p>
             </section>
             <hr>
-            <section class="about">
-                <h2>Education:</h2>
+            <section class="about" id="education">
+                <h3>Education:</h3>
                 <p>I have a degree in marketing and i work as a marketing specialist. Now I am studying the profession of a frontend developer at rs.school and melarossa school.</p>
             </section>
             <hr>
-            <section class="about">
-                <h2>My english:</h2>
-                <p>Pre-Intermidiate.</p>
+            <section class="about" id="code">
+                <h3>Code:</h3>
+                <code>
+                    <pre>
+                    let message;
+                    message = 'Hello Rsschool!';
+                    alert(message);
+                    </pre>
+                </code>
             </section>
             <hr>
+            <section class="about" id="english">
+                <h3>English:</h3>
+                <p>Pre-Intermidiate A2.</p>
+            </section>
+            <hr>
+            </div>
         </main>
         <footer>
-            <div>
+            <div class="container-footer">
+                <a class="link-me" href="https://github.com/Valentino4ka12"><p>Valentino4ka12</p></a>
                 <p>2022</p>
-            <a class="link-me" href="https://github.com/Valentino4ka12"><p>Valentino4ka12</p></a>
+                <div><a href="https://rs.school/js-stage0/"><img class="icon-rs" src="./Assets/Img/logo-rsschool3.png" alt="rsschool" ></a></div>
             </div>
-            <div><a href="https://rs.school/js-stage0/"><img class="icon-rs" src="./Assets/Img/logo-rsschool3.png" alt="rsschool" ></a></div>
         </footer>
     </div>
 </body>
